@@ -7,10 +7,11 @@ public class Main {
             System.out.println(str.length());
 
         } catch (NullPointerException e) {
-            System.out.println("NullPointerExceptionが発生しました。");
+            System.out.println("壱百満");
             System.out.println(e.getMessage());
         }
-        
+        String str = "NullPointerExceptionが発生しました。";
+        int value = Integer.parseInt(str);
     }
 
 }
